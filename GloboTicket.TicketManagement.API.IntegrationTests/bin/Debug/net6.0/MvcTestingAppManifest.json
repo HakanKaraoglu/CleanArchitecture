@@ -1,8 +1,0 @@
-{
-  "GloboTicket.TicketManagement.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/hakankaraoglu\/Desktop\/Demos\/GloboTicket.TicketManagement.Api",
-  "GloboTicket.TicketManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/hakankaraoglu\/Desktop\/Demos\/GloboTicket.TicketManagement.Application",
-  "GloboTicket.TicketManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/hakankaraoglu\/Desktop\/Demos\/GloboTicket.TicketManagement.Domain",
-  "GloboTicket.TicketManagement.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/hakankaraoglu\/Desktop\/Demos\/GloboTicket.TicketManagement.Identity",
-  "GloboTicket.TicketManagement.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/hakankaraoglu\/Desktop\/Demos\/GloboTicket.TicketManagement.Infrastructure",
-  "GloboTicket.TicketManagement.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/hakankaraoglu\/Desktop\/Demos\/GloboTicket.TicketManagement.Persistence"
-}

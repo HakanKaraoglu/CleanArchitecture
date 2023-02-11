@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/GloboTicket.TicketManagement.Api.props" />
-</Project>

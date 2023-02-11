@@ -1,0 +1,67 @@
+2022-11-06 21:22:10.814 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-06 21:22:10.840 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-06 21:22:10.842 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 21:22:10.842 +01:00 [INF] Hosting environment: Development
+2022-11-06 21:22:10.843 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-06 21:22:16.958 +01:00 [INF] HTTP GET /api/Events responded 200 in 357.4733 ms
+2022-11-06 21:22:19.231 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 214.4581 ms
+2022-11-06 21:22:19.515 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 32
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-06 21:22:19.527 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2022-11-06 21:22:19.531 +01:00 [ERR] Connection id "0HMM06IAUJGOL", Request id "0HMM06IAUJGOL:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 32
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-11-06 21:22:23.392 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 32
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-06 21:22:23.394 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2022-11-06 21:22:23.395 +01:00 [ERR] Connection id "0HMM06IAUJGOL", Request id "0HMM06IAUJGOL:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 32
+   at GloboTicket.TicketManagement.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Middleware\ExceptionHandlerMiddleware.cs:line 24
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-11-06 21:22:28.956 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 283.0716 ms
+2022-11-06 21:22:30.062 +01:00 [INF] HTTP GET /api/Events responded 200 in 13.5888 ms
+2022-11-06 21:22:32.967 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 12.1252 ms
+2022-11-06 21:22:33.000 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 19.3476 ms
+2022-11-06 21:22:34.646 +01:00 [INF] HTTP GET /api/Events responded 200 in 12.2661 ms
+2022-11-06 21:22:36.170 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 11.0182 ms
+2022-11-06 21:22:37.774 +01:00 [INF] HTTP GET /api/Events responded 200 in 18.5188 ms
+2022-11-06 21:22:40.040 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 73.0098 ms

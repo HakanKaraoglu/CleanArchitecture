@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MSsgpooF1fSQHYOkWnkGCCGdwhveJyE06clLltGl6Gk7zWfREHQEJbpcwZNmOsw9t3e+o0AMOt0qOeSYJZasMg==",
+  "success": true,
+  "projectFilePath": "/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.Domain/GloboTicket.TicketManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/hakankaraoglu/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/Users/hakankaraoglu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

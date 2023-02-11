@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = GloboTicket.TicketManagement.App
+build_property.RootNamespace = GloboTicket.TicketManagement.App
+build_property.ProjectDir = /Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Components/Pager.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/AddCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkQ2F0ZWdvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/CategoryOverview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlPdmVydmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/EventDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnREZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/EventOverview.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRPdmVydmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Pages/TicketSales.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGlja2V0U2FsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8dvc3tvvvq
+
+[/Users/hakankaraoglu/Desktop/Demos/GloboTicket.TicketManagement.App/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dtovktjtkv

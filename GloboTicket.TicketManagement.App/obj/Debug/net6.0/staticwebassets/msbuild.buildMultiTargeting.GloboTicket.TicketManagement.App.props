@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/GloboTicket.TicketManagement.App.props" />
+</Project>

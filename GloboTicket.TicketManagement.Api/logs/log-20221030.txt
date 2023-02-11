@@ -1,0 +1,175 @@
+2022-10-30 16:40:27.619 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 16:40:27.641 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 16:40:27.644 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 16:40:27.645 +01:00 [INF] Hosting environment: Development
+2022-10-30 16:40:27.646 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 16:40:28.475 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 192.9520 ms
+2022-10-30 16:40:28.757 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 95.6905 ms
+2022-10-30 16:40:32.930 +01:00 [INF] HTTP GET /api/Category/all responded 400 in 88.4128 ms
+2022-10-30 16:41:18.279 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 16:41:18.298 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 16:41:18.300 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 16:41:18.301 +01:00 [INF] Hosting environment: Development
+2022-10-30 16:41:18.302 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 16:41:19.037 +01:00 [INF] HTTP GET /swagger/index.html responded 200 in 164.1229 ms
+2022-10-30 16:41:19.384 +01:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 72.3403 ms
+2022-10-30 16:41:23.943 +01:00 [INF] HTTP GET /api/Category/all responded 400 in 91.6038 ms
+2022-10-30 16:42:24.585 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 16:42:24.603 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 16:42:24.606 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 16:42:24.607 +01:00 [INF] Hosting environment: Development
+2022-10-30 16:42:24.607 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 16:42:30.282 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 72.5071 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:42:49.370 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 16:42:49.393 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 16:42:49.395 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 16:42:49.395 +01:00 [INF] Hosting environment: Development
+2022-10-30 16:42:49.396 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 16:42:55.032 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 74.7538 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:43:47.061 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 16:43:47.084 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 16:43:47.086 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 16:43:47.086 +01:00 [INF] Hosting environment: Development
+2022-10-30 16:43:47.087 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 16:43:52.524 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 65.6193 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:43:52.907 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 29.1198 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:43:53.223 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 26.7057 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:43:53.548 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 30.8114 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:43:53.820 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 28.2987 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 16:45:33.445 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 16:45:33.466 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 16:45:33.468 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 16:45:33.469 +01:00 [INF] Hosting environment: Development
+2022-10-30 16:45:33.470 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 16:45:40.481 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 66.5514 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-10-30 17:32:00.969 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 17:32:00.987 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 17:32:00.989 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 17:32:00.990 +01:00 [INF] Hosting environment: Development
+2022-10-30 17:32:00.990 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-10-30 17:32:04.849 +01:00 [INF] HTTP GET /api/Events responded 200 in 632.0267 ms
+2022-10-30 19:48:30.097 +01:00 [INF] Now listening on: https://localhost:7020
+2022-10-30 19:48:30.115 +01:00 [INF] Now listening on: http://localhost:5020
+2022-10-30 19:48:30.117 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-30 19:48:30.118 +01:00 [INF] Hosting environment: Development
+2022-10-30 19:48:30.118 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\

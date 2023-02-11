@@ -1,0 +1,105 @@
+2022-11-12 16:07:10.359 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:07:10.383 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:07:10.384 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:07:10.385 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:07:10.385 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:07:22.469 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 1007.7872 ms
+2022-11-12 16:08:06.887 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:08:06.906 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:08:06.910 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:08:06.911 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:08:06.912 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:08:10.840 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 629.5430 ms
+2022-11-12 16:08:12.537 +01:00 [INF] HTTP GET /api/Events responded 200 in 221.4317 ms
+2022-11-12 16:08:15.983 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 28.7276 ms
+2022-11-12 16:08:30.096 +01:00 [INF] Email sent
+2022-11-12 16:08:30.097 +01:00 [ERR] Email sending failed
+2022-11-12 16:08:30.105 +01:00 [INF] HTTP POST /api/Events responded 200 in 3742.9334 ms
+2022-11-12 16:08:30.140 +01:00 [INF] HTTP GET /api/Events responded 200 in 17.2277 ms
+2022-11-12 16:08:33.617 +01:00 [INF] HTTP GET /api/Events/e1ad0e26-9e35-4b54-fefe-08dac4bfc0e9 responded 200 in 62.3555 ms
+2022-11-12 16:08:33.648 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 10.2782 ms
+2022-11-12 16:08:44.113 +01:00 [INF] HTTP PUT /api/Events responded 204 in 7385.2362 ms
+2022-11-12 16:08:44.150 +01:00 [INF] HTTP GET /api/Events responded 200 in 22.3242 ms
+2022-11-12 16:09:10.462 +01:00 [INF] HTTP GET /api/Events/e1ad0e26-9e35-4b54-fefe-08dac4bfc0e9 responded 200 in 18.1392 ms
+2022-11-12 16:09:10.490 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 16.6758 ms
+2022-11-12 16:09:16.013 +01:00 [INF] HTTP PUT /api/Events responded 204 in 2544.7452 ms
+2022-11-12 16:09:16.043 +01:00 [INF] HTTP GET /api/Events responded 200 in 17.3389 ms
+2022-11-12 16:09:17.954 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 97.4855 ms
+2022-11-12 16:09:19.936 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 16.1994 ms
+2022-11-12 16:09:23.306 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 17.6071 ms
+2022-11-12 16:09:24.065 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 14.5830 ms
+2022-11-12 16:09:25.045 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 15.2533 ms
+2022-11-12 16:09:30.864 +01:00 [INF] HTTP POST /api/Category responded 200 in 1960.3562 ms
+2022-11-12 16:09:41.550 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-11-12 16:09:41.553 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-11-12 16:09:41.589 +01:00 [INF] HTTP GET /getpagedordersformonth responded 200 in 69.3174 ms
+2022-11-12 16:10:06.221 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:10:06.246 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:10:06.248 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:10:06.249 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:10:06.249 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:10:09.107 +01:00 [INF] HTTP GET /api/Events responded 200 in 342.9890 ms
+2022-11-12 16:19:35.836 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:19:35.860 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:19:35.863 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:19:35.865 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:19:35.866 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:20:04.556 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 1049.2122 ms
+2022-11-12 16:20:06.166 +01:00 [INF] HTTP GET /api/Events responded 200 in 243.6608 ms
+2022-11-12 16:20:07.130 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 45.2407 ms
+2022-11-12 16:20:19.450 +01:00 [INF] Email sent
+2022-11-12 16:20:23.454 +01:00 [INF] HTTP POST /api/Events responded 200 in 11337.5913 ms
+2022-11-12 16:20:23.484 +01:00 [INF] HTTP GET /api/Events responded 200 in 11.7883 ms
+2022-11-12 16:22:55.105 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:22:55.123 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:22:55.125 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:22:55.126 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:22:55.126 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:22:58.241 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 1108.6890 ms
+2022-11-12 16:22:59.745 +01:00 [INF] HTTP GET /api/Events responded 200 in 219.4623 ms
+2022-11-12 16:23:04.902 +01:00 [INF] HTTP POST /api/Category responded 200 in 59.6213 ms
+2022-11-12 16:23:08.241 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 150.8116 ms
+2022-11-12 16:23:09.536 +01:00 [INF] HTTP GET /api/Events responded 200 in 13.7661 ms
+2022-11-12 16:23:16.020 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-11-12 16:23:16.025 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-11-12 16:23:16.067 +01:00 [INF] HTTP GET /getpagedordersformonth responded 200 in 77.2484 ms
+2022-11-12 16:25:11.348 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:25:11.370 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:25:11.373 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:25:11.374 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:25:11.374 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:25:23.960 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 867.1445 ms
+2022-11-12 16:25:25.710 +01:00 [INF] HTTP GET /api/Events responded 200 in 232.0326 ms
+2022-11-12 16:25:27.479 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 36.1743 ms
+2022-11-12 16:26:31.853 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:26:31.874 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:26:31.877 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:26:31.877 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:26:31.878 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:26:33.962 +01:00 [INF] HTTP GET /api/Events responded 200 in 355.5028 ms
+2022-11-12 16:26:34.327 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 46.8887 ms
+2022-11-12 16:26:38.139 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 13.0489 ms
+2022-11-12 16:28:19.045 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:28:19.066 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:28:19.068 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:28:19.069 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:28:19.069 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:28:22.658 +01:00 [INF] HTTP GET /api/Events responded 200 in 360.9858 ms
+2022-11-12 16:31:44.581 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:31:44.600 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:31:44.602 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:31:44.603 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:31:44.603 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:31:46.423 +01:00 [INF] HTTP GET /api/Events responded 200 in 329.4859 ms
+2022-11-12 16:32:43.714 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:32:43.736 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:32:43.738 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:32:43.739 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:32:43.740 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-12 16:32:45.684 +01:00 [INF] HTTP GET /api/Events responded 200 in 352.7718 ms
+2022-11-12 16:32:49.244 +01:00 [INF] HTTP GET /api/events/export responded 200 in 2361.8194 ms
+2022-11-12 16:50:01.177 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-12 16:50:01.198 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-12 16:50:01.200 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-12 16:50:01.201 +01:00 [INF] Hosting environment: Development
+2022-11-12 16:50:01.201 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\

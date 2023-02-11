@@ -1,0 +1,123 @@
+2022-11-04 10:34:37.070 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 10:34:37.095 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 10:34:37.097 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 10:34:37.098 +01:00 [INF] Hosting environment: Development
+2022-11-04 10:34:37.098 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 10:34:45.404 +01:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 742.8837 ms
+2022-11-04 10:34:48.346 +01:00 [INF] HTTP GET /api/Events responded 200 in 169.7756 ms
+2022-11-04 10:34:49.392 +01:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 82.8028 ms
+2022-11-04 10:34:50.115 +01:00 [INF] HTTP GET /api/Events responded 200 in 14.4811 ms
+2022-11-04 10:34:53.628 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 29.5636 ms
+2022-11-04 10:34:53.694 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 41.1648 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method343(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-11-04 10:35:04.631 +01:00 [INF] HTTP GET /api/Events responded 200 in 15.2535 ms
+2022-11-04 10:35:06.045 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 12.7689 ms
+2022-11-04 10:35:06.074 +01:00 [ERR] HTTP GET /api/Category/all responded 500 in 23.8570 ms
+System.Exception: test
+   at GloboTicket.TicketManagement.Api.Controllers.CategoryController.GetAllCategories() in D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\Controllers\CategoryController.cs:line 26
+   at lambda_method343(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-11-04 10:35:43.623 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 10:35:43.642 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 10:35:43.644 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 10:35:43.645 +01:00 [INF] Hosting environment: Development
+2022-11-04 10:35:43.645 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 10:35:46.545 +01:00 [INF] HTTP GET /api/Events responded 200 in 360.3503 ms
+2022-11-04 10:35:47.894 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 206.1689 ms
+2022-11-04 10:35:48.041 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 18.4613 ms
+2022-11-04 10:43:34.303 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 10:43:34.322 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 10:43:34.324 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 10:43:34.324 +01:00 [INF] Hosting environment: Development
+2022-11-04 10:43:34.325 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 10:43:36.700 +01:00 [INF] HTTP GET /api/Events responded 200 in 349.5818 ms
+2022-11-04 10:43:38.232 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 213.2893 ms
+2022-11-04 10:43:38.377 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 17.9735 ms
+2022-11-04 10:51:07.401 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 10:51:07.419 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 10:51:07.421 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 10:51:07.421 +01:00 [INF] Hosting environment: Development
+2022-11-04 10:51:07.422 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 10:51:08.856 +01:00 [INF] HTTP GET /api/Events responded 200 in 342.5354 ms
+2022-11-04 10:51:10.611 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 219.2586 ms
+2022-11-04 10:51:10.763 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 18.2301 ms
+2022-11-04 10:52:21.705 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 10:52:21.724 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 10:52:21.726 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 10:52:21.726 +01:00 [INF] Hosting environment: Development
+2022-11-04 10:52:21.727 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 10:52:23.659 +01:00 [INF] HTTP GET /api/Events responded 200 in 343.5986 ms
+2022-11-04 10:52:25.383 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 214.7842 ms
+2022-11-04 10:52:25.532 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 17.7789 ms
+2022-11-04 10:58:10.457 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 10:58:10.476 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 10:58:10.478 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 10:58:10.478 +01:00 [INF] Hosting environment: Development
+2022-11-04 10:58:10.478 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 10:58:12.494 +01:00 [INF] HTTP GET /api/Events responded 200 in 344.9166 ms
+2022-11-04 10:58:14.923 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 214.0710 ms
+2022-11-04 10:58:15.094 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 34.7498 ms
+2022-11-04 11:02:33.982 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 11:02:34.004 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 11:02:34.007 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 11:02:34.008 +01:00 [INF] Hosting environment: Development
+2022-11-04 11:02:34.008 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 11:02:36.810 +01:00 [INF] HTTP GET /api/Events responded 200 in 456.9916 ms
+2022-11-04 11:02:38.443 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 357.1904 ms
+2022-11-04 11:02:38.607 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 18.8510 ms
+2022-11-04 11:16:20.526 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 11:16:20.545 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 11:16:20.547 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 11:16:20.547 +01:00 [INF] Hosting environment: Development
+2022-11-04 11:16:20.547 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 11:16:23.037 +01:00 [INF] HTTP GET /api/Events responded 200 in 352.0480 ms
+2022-11-04 11:16:24.169 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 203.7419 ms
+2022-11-04 11:16:24.315 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 20.1102 ms
+2022-11-04 11:16:25.190 +01:00 [INF] HTTP PUT /api/Events responded 400 in 24.4240 ms
+2022-11-04 11:16:36.282 +01:00 [INF] HTTP PUT /api/Events responded 400 in 0.8354 ms
+2022-11-04 11:16:37.093 +01:00 [INF] HTTP PUT /api/Events responded 400 in 0.3695 ms
+2022-11-04 11:16:37.232 +01:00 [INF] HTTP PUT /api/Events responded 400 in 0.4322 ms
+2022-11-04 11:16:37.355 +01:00 [INF] HTTP PUT /api/Events responded 400 in 0.3888 ms
+2022-11-04 11:16:37.491 +01:00 [INF] HTTP PUT /api/Events responded 400 in 0.3578 ms
+2022-11-04 11:16:51.468 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 11:16:51.493 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 11:16:51.496 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 11:16:51.498 +01:00 [INF] Hosting environment: Development
+2022-11-04 11:16:51.500 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 11:16:53.696 +01:00 [INF] HTTP GET /api/Events responded 200 in 329.8952 ms
+2022-11-04 11:16:55.261 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 213.6877 ms
+2022-11-04 11:16:55.409 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 18.2612 ms
+2022-11-04 11:16:56.460 +01:00 [INF] HTTP PUT /api/Events responded 400 in 26.1644 ms
+2022-11-04 11:17:13.402 +01:00 [INF] Now listening on: https://localhost:7020
+2022-11-04 11:17:13.420 +01:00 [INF] Now listening on: http://localhost:5020
+2022-11-04 11:17:13.422 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-04 11:17:13.422 +01:00 [INF] Hosting environment: Development
+2022-11-04 11:17:13.423 +01:00 [INF] Content root path: D:\GitHub\ps-clean-architecture-aspnetcore6\GloboTicket.TicketManagement\GloboTicket.TicketManagement.Api\
+2022-11-04 11:17:14.948 +01:00 [INF] HTTP GET /api/Events responded 200 in 357.4830 ms
+2022-11-04 11:17:16.644 +01:00 [INF] HTTP GET /api/Events/b419a7ca-3321-4f38-be8e-4d7b6a529319 responded 200 in 216.1902 ms
+2022-11-04 11:17:16.797 +01:00 [INF] HTTP GET /api/Category/all responded 200 in 20.8452 ms
